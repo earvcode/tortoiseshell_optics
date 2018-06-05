@@ -1,0 +1,130 @@
+  /* Universal Styles */
+ html {
+    font-size: 18px;
+ }
+
+ body {
+    line-height: 1.4;
+    font-family: Helvetica, sans-serif;
+ }
+
+ .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  flex {
+      display: flex; 
+  }
+
+ /* Header Styles */
+ header {
+     background-image: url("../images/img-glasses-bg.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 31rem;
+ }
+ .logo {
+    display: flex;
+    justify-content: flex-start; 
+ }
+ .logo img{
+    height: 1.5rem;
+
+ }
+ .logo span {
+     font-size: 1rem;
+ }
+
+ nav {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .desktop-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .desktop-menu li {
+     padding-right: 2rem;
+ }
+ .mobile-menu {
+     display: none;
+ }
+ .headline {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+ }
+ .headline h1{
+     line-height: 1.2;
+     font-size: 2rem;
+     font-weight: bold;
+     padding: 1.5rem 5rem;
+     background-color: white;
+ }
+
+ /* Highlight Styles */
+ .highlights {
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    height: 8rem;
+    padding: 3rem 0;
+ }
+ figure {
+     width: 5rem;
+ }
+
+ figure img {
+     width: 3.5rem;
+ }
+
+ /* Information Styles */
+
+ .company-info {
+     display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    
+
+ }
+
+ .company-info div {
+     width: 35%;
+ }
+
+ .company-info h1 {
+    width: 10rem;
+     padding: 0.5rem 1.25rem;
+     background-color: cadetblue;
+     margin-bottom: 1rem;
+     font-size: 1rem;
+     font-weight: bold;
+     color: white;
+ }
+
+ .info-1 {
+     margin-right: 5%;
+ }
+
+ /* Footer Styles */
+ .footer {
+     padding: 4rem 4rem;
+     background-color: azure;
+     display: flex;
+     justify-content: flex-start; 
+     
+ }
+ 
+ footer img{
+     height: 1.5rem;
+     margin-right: 1rem;
+ }
